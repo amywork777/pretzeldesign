@@ -71,23 +71,23 @@ export default function Home() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/* Project 1 */}
           <Link
-            href="https://makeprettythings.pretzel.design"
+            href="https://taiyaki.ai"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
             <div className="flex items-center justify-between mb-1">
-              <h3 className="text-sm font-medium text-gray-800">Cute Character Maker</h3>
+              <h3 className="text-sm font-medium text-gray-800">Taiyaki.ai</h3>
               <ExternalLink size={12} className="text-[#FFA366] group-hover:text-[#FFA366]" />
             </div>
-            <p className="text-xs text-gray-500">Interactive tool for designing adorable characters</p>
+            <p className="text-xs text-gray-500">Making 3D design accessible through AI</p>
           </Link>
 
           {/* Project 2 */}
           <Link
-            href="https://fishcad.ai"
+            href="https://fishcad.com"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
@@ -100,15 +100,28 @@ export default function Home() {
 
           {/* Project 3 */}
           <Link
-            href="https://taiyaki.ai"
+            href="https://makeprettythings.pretzel.design"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
             <div className="flex items-center justify-between mb-1">
-              <h3 className="text-sm font-medium text-gray-800">Taiyaki.ai</h3>
+              <h3 className="text-sm font-medium text-gray-800">Make Pretty Things</h3>
               <ExternalLink size={12} className="text-[#FFA366] group-hover:text-[#FFA366]" />
             </div>
-            <p className="text-xs text-gray-500">Making 3D design accessible through AI</p>
+            <p className="text-xs text-gray-500">Artistic form design celebrating aesthetics</p>
+          </Link>
+
+          {/* Project 4 */}
+          <Link
+            href="https://kawaiicharacters.pretzel.design"
+            target="_blank"
+            className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
+          >
+            <div className="flex items-center justify-between mb-1">
+              <h3 className="text-sm font-medium text-gray-800">Cute Character Maker</h3>
+              <ExternalLink size={12} className="text-[#FFA366] group-hover:text-[#FFA366]" />
+            </div>
+            <p className="text-xs text-gray-500">Interactive tool for designing adorable characters</p>
           </Link>
         </div>
       </div>
