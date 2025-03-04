@@ -74,7 +74,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Project 1 */}
           <Link
-            href="#" // TODO: Replace with actual link
+            href="https://kawaiicharacters.pretzel.design"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
