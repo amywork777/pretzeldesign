@@ -74,7 +74,7 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Project 1 */}
           <Link
-            href="https://kawaiicharacters.pretzel.design"
+            href="https://makeprettythings.pretzel.design"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
@@ -87,15 +87,15 @@ export default function Home() {
 
           {/* Project 2 */}
           <Link
-            href="#" // TODO: Replace with actual link
+            href="https://fishcad.ai"
             target="_blank"
             className="bg-white border border-[#FFA366] rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow group"
           >
             <div className="flex items-center justify-between mb-1">
-              <h3 className="text-sm font-medium text-gray-800">Make Pretty Things</h3>
+              <h3 className="text-sm font-medium text-gray-800">FishCAD</h3>
               <ExternalLink size={12} className="text-[#FFA366] group-hover:text-[#FFA366]" />
             </div>
-            <p className="text-xs text-gray-500">Artistic form design celebrating aesthetics</p>
+            <p className="text-xs text-gray-500">Making CAD easier - part of taiyaki.ai</p>
           </Link>
 
           {/* Project 3 */}
